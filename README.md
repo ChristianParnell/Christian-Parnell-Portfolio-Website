@@ -1,4 +1,4 @@
-IMPORTANT: Upload the CONTENTS of this ZIP directly to the root of your GitHub repository, including index.html and css/site.css. Do NOT upload a containing folder. This corrected build includes a static fallback and its own inline JavaScript so no separate script files are required for the page to display.
+IMPORTANT: Upload the CONTENTS of this ZIP directly to the root of your GitHub repository, including index.html and css/site.css. Do NOT upload a containing folder. This final build includes a static fallback and verified inline JavaScript (no missing module imports).
 
 # Christian Parnell — Portfolio
 
