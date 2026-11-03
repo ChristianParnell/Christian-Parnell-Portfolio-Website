@@ -1,3 +1,5 @@
+IMPORTANT: Upload the CONTENTS of this ZIP directly to the root of your GitHub repository, including index.html and css/site.css. Do NOT upload a containing folder. This corrected build includes a static fallback and its own inline JavaScript so no separate script files are required for the page to display.
+
 # Christian Parnell — Portfolio
 
 A complete, static, GitHub Pages-ready profile site. Rebuilt from the original Orbit Website source and inspired by the reference website's compact menu, bold headings, section-based navigation and project-gallery layout. The code and text are original to this project.
@@ -46,12 +48,12 @@ The following original paths were taken from the supplied `pages/js/page-gallery
 - `assets/covers/fab.png`
 - `assets/covers/achievements.jpg`
 
-Cards have built-in cover artwork if these files are not added. Other old assets such as the moth FBX, ambient audio, orbit model and background loop are no longer required.
+Cards have built-in cover artwork if these files are not added. The moth, orbit, model viewer and related scripts are no longer required. The site intentionally does not include 3D model viewers or model-store cards.
 
 ## Editing content
 
-- `js/site.js`: all page text, experience details, projects and links.
-- `js/media.js`: all 20 media filenames, titles and descriptions.
+- `index.html`: page text, experience details, projects and links (inline JavaScript for reliable GitHub Pages deployment).
+- `index.html`: all 20 media filenames, titles and descriptions (search for `const media`).
 - `css/site.css`: colours, font sizes, spacing and responsive layouts.
 - `index.html`: navigation and basic metadata.
 
