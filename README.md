@@ -39,7 +39,6 @@ The following original paths were taken from the supplied `pages/js/page-gallery
 - `assets/gallery/renders/render-07-wet-metal-study.png` — Motion Design Animation Render
 - `assets/gallery/renders/render-08-blue-grade.png` — Woe 2.0
 - `assets/gallery/renders/render-09-wide-composition.png` — Character Animation Render
-- `assets/gallery/renders/render-10-final-beauty.png` — Woe 2.0 Bunker
 
 ### Optional covers
 
@@ -53,7 +52,7 @@ Cards have built-in cover artwork if these files are not added. The moth, orbit,
 ## Editing content
 
 - `index.html`: page text, experience details, projects and links (inline JavaScript for reliable GitHub Pages deployment).
-- `index.html`: all 20 media filenames, titles and descriptions (search for `const media`).
+- `index.html`: the remaining original media filenames, titles and descriptions (search for `const media`).
 - `css/site.css`: colours, font sizes, spacing and responsive layouts.
 - `index.html`: navigation and basic metadata.
 
@@ -66,3 +65,16 @@ Home, About, Projects, Gallery (filterable with full-size video/image viewer), E
 Biography, education and job dates follow the uploaded 2026 CV. No private reference contact information is included in the public site. External project links are from the original project and CV. The site does not claim current job availability beyond the short sidebar label, which you can remove if preferred.
 
 This is a style adaptation, not a copy of the reference site's proprietary assets or source code.
+
+## Creative milestones update
+The former Experience navigation item is now Milestones and focuses exclusively on creative work. Retail employment entries have been removed. Oblix Studio, five-plus experimental game projects and Finno the Lizard (in production) are included. The gallery media paths remain unchanged.
+
+## Finno the Lizard animation test
+The project gallery and the main gallery now include **Finno Animation Test** with one grouped viewer containing the video and both Blender work-in-progress screenshots. Use Previous/Next arrows (or swipe the viewer on mobile) to browse them. The screenshots are included inside the ZIP.
+
+To restore the video, add exactly this file (case sensitive):
+`assets/finno/lizzard_test_v1.mp4`
+
+The video was not part of the uploaded attachments, so it is **not** in the ZIP. Its card shows a missing-video label until you add it.
+
+The **Woe 2.0 Bunker** gallery item has been removed (the `render-10-final-beauty.png` image is no longer referenced). The other Woe item is unchanged.
